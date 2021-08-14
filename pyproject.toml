@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "meta2fn"
+version = "0.1.0"
+description = ""
+authors = ["yukke <yukke@yukke.org>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mutagen = "^1.45.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+meta2fn = "meta2fn:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
